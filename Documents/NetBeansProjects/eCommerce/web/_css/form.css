@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+input {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-family: 13pt;
+}
+
+
+.titulo {
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+
+fieldset {
+    border-color: #064b76;
+    margin: 20px;
+}
+
+fieldset#identificacao{
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+fieldset#endereco{
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, .5);
+}

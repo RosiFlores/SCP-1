@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; }
+
+ul{
+    list-style: none;
+}
+
+html {  background-image: url("../_imagens/1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+body {
+	background:whitesmoke;
+	border:1px solid #b3b3b3; 
+	width:1024px;
+    margin: -20px auto 0px auto;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, .5);
+
+}
+
+div#cabecalho {
+    height: 122px;
+    width: 100%;
+    background: whitesmoke;
+
+}
+
+
+/*--------------LOGO---------------*/
+
+#logo-site {
+	width: 210px;
+	height: 59px;
+	float: left;
+	padding: 25px 0 0 20px;
+    background:url("../_imagens/logo.png") no-repeat 0px 10px;
+    position: relative;
+    margin: 0 ;
+    top: -8px;
+    left: -25px;
+}
+
+
+/*--------------BARRA DE PROCURA---------------*/
+#buscar {
+	height: 60px;
+	background: whitesmoke;
+	float: left;
+	margin: 0 0 0 200px;
+	padding: 20px 0 0 0;
+
+}
+
+
+#buscar input[type=search] {
+    font: 600 13px/100% 'Open Sans', segoe, sans-serif;
+    color: #322a56;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #064b76;
+    padding: 0 0 0 30px;
+	background: white url("../_imagens/buscar.jpg") no-repeat scroll 7px 9px;
+	float: left;
+}
+
+#lupa{
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+
+/*------------------USUÁRIO------------------*/
+div#usuario{
+	width: 150px;
+	height: 60px;
+	padding: 20px 0 0 20px;
+	float: right;
+    color: #000000;
+}
+
+a.login{
+    position: relative;
+    top: -10px;
+    left: 37px;
+}
+
+span.login2{
+    position: absolute;
+    top: 1px;
+    right: 41px;
+}
+
+
+a.registrar{
+    position: relative;
+    top: -3px;
+    right: -38px;
+}
+
+span.registrar2{
+    position: relative;
+    top: 14px;
+    right: 50px;
+}
+
+div#usuario a:link {
+    color:#000000;
+    text-decoration:none;
+}
+
+div#usuario a:visited {
+    color:#000000;
+    text-decoration:none;
+}
+
+div#usuario a:hover {
+    color:#000000;
+    text-decoration:underline;
+}
+
+div#usuario a:active {
+    color:#000000;
+    text-decoration:underline;
+}
+
+/*---------------------MENU-------------------*/
+#menu {
+	width: 100%;
+	height: 42px;
+	background: #00405d;
+	clear: both;
+
+}
+
+#menu-direito {
+	width: 100px;
+	background: whitesmoke;
+	float: right;
+	padding: 10px 10px 10px 0;
+	text-align:right;
+}
+
+a:link, a:visited { text-decoration:none; -webkit-transition: all 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.3s;}
+
+/*--------------Estilo do Menu---------------*/
+
+div#menu ul { 
+	list-style:none; 
+	margin:0;
+}
+
+div#menu ul li { 
+	float:left; 
+	position:relative; 
+}
+
+div#menu ul li a {
+	display:block; 
+	padding:10px 20px; 
+	border-right:1px solid #063c5e; 
+	color:whitesmoke; 
+}
+
+div#menu ul li a:hover { 
+	background:whitesmoke; 
+	color:#064b76; 
+}
+
+div#menu ul li a.padding-right { 
+	padding:10px 20px 10px 20px;
+}
+
+div#menu ul li a.padding-right:hover { 
+	color:#064b76;  
+}
+
+div#menu ul li ul{ 
+	display:none;
+	-webkit-transition: all 2s; /* For Safari 3.1 to 6.0 */
+    transition: all 2s;
+}
+
+div#menu ul li:hover>ul{ 
+	display:block; 
+	position:absolute; 
+	top:43px; 
+	left:auto; 
+}
+
+div#menu ul li ul li a {
+	color:whitesmoke; display:block;
+	padding:10px 20px;
+	border:1px solid #064b76;
+	background:whitesmoke;
+	color:#064b76; width:100px;
+}
+div#menu ul li ul li a:hover{
+	background:#064b76; 
+	color:#00405d;
+}
+
+/*----------------Conteudo---------------------*/
+
+
+div#conteudo {
+	height: 20px;
+	background: whitesmoke;
+}
+
+#privacidade{
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#enviar{
+    text-align: center;
+}
+
+.but{
+    display: inline-block;
+    background-color: #ccc;
+    color: #444;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 0px;
+}
+
+.but:hover {
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: pointer;
+}
+
+.but-primary {
+    color: #fff;
+    background-color: #063c5e ;
+}
+
+.but-shadow {
+    box-shadow: 1px 1px 1px #999;
+}
+
+.but-rc {
+    border-radius: 4px;
+}
+/*----------------RODAPÉ--------------------*/
+
+div#rodape {
+    width: 100%;
+    height: 200px;
+    background: rgba(39, 64, 139,0.9);
+    clear: both;
+	position:relative;
+	top:290px;
+}
+
+
+
+.menuesquerda{
+    width: 200px;
+	height: 150px;
+    display: block;
+    position: relative;
+    left: 30px;
+    top: 15px;
+	color:whitesmoke;
+}
+
+.menuesquerda a{
+	color:whitesmoke;
+
+}
+
+
+div.menucentro{
+    width: 200px;
+	height: 150px;
+    display: block;
+    position: relative;
+    left: 425px;
+    top: -135px;
+	color:whitesmoke;
+}
+
+div.menucentro a{
+	color:whitesmoke;
+}
+
+div#copyright{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 280px;
+}
+

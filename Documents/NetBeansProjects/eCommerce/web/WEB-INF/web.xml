@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Faces Servlet</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CadastrarCarrinhoController</servlet-name>
+        <servlet-class>controller.CadastrarCarrinhoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PesquisarCarrinhoController</servlet-name>
+        <servlet-class>controller.PesquisarCarrinhoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastrarProdutoController</servlet-name>
+        <servlet-class>controller.CadastrarProdutoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PesquisarProdutoController</servlet-name>
+        <servlet-class>controller.PesquisarProdutoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastrarUsuarioController</servlet-name>
+        <servlet-class>controller.CadastrarUsuarioController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PesquisarUsuarioController</servlet-name>
+        <servlet-class>controller.PesquisarUsuarioController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastrarVendaController</servlet-name>
+        <servlet-class>controller.CadastrarVendaController</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>PesquisarVendaController</servlet-name>
+        <servlet-class>controller.PesquisarVendaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadastrarCarrinhoController</servlet-name>
+        <url-pattern>/CadastrarCarrinhoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PesquisarCarrinhoController</servlet-name>
+        <url-pattern>/PesquisarCarrinhoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastrarProdutoController</servlet-name>
+        <url-pattern>/CadastrarProdutoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PesquisarProdutoController</servlet-name>
+        <url-pattern>/PesquisarProdutoController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastrarUsuarioController</servlet-name>
+        <url-pattern>/CadastrarUsuarioController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PesquisarUsuarioController</servlet-name>
+        <url-pattern>/PesquisarUsuarioController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastrarVendaController</servlet-name>
+        <url-pattern>/CadastrarVendaController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PesquisarVendaController</servlet-name>
+        <url-pattern>/PesquisarVendaController</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
