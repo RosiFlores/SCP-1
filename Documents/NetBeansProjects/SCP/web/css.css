@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/10/2014, 14:47:52
+    Author     : Mayara Amanda
+*/
+
+h1{
+    font-family: Bookman Old Style, Candara, Century;
+}
+
+
+
+h2{
+   font-family: Bookman Old Style, Candara, Century; 
+}
+
+h3{
+   font-family: Bookman Old Style, Candara, Century; 
+}
+
+#loginTela{
+   position:absolute;
+    top:50%;
+    left:50%;
+    width:500px;
+    height:300px;
+    margin-left:-250px;
+    margin-top:-150px;
+    text-align:center;
+    border-style: 2px;
+    border: 5px;
+    border-color: #333 solid; 
+    
+}
+
+.botao1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:86px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}.botao1:active {
+	position:relative;
+	top:1px;
+}
+
+table{
+    font-family: Bookman Old Style, Candara, Century; 
+}
